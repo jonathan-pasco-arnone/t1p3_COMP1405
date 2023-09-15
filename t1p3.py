@@ -6,6 +6,7 @@
 import random
 
 def main():
+    """ Main function of the guessing game """
     # Generate a random number from 1 to 100 with step of 1
     # ex: if step was 2 then valid numbers would be 1,3,5,etc.
     random_num = random.randrange(1, 100, 1)
